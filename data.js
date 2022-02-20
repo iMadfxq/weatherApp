@@ -6,6 +6,6 @@ const getLocationId = async () => { // it is an asynchronous function, because w
   return data //this will return a promise so we will have to use a '.then' later.
 }
 
-const getCurrentWeather = () => {
+const getCurrentWeather = async () => {
 
 }

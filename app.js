@@ -17,11 +17,10 @@ const updateUI = async (data) => {
   const {cityDetails, weather} = data
 
   cardDetails.innerHTML = `
-    <h1>${cityDetails.EnglishName}</h1>
-    <h2>${cityDetails.Country.EnglishName}</h2>
-    <h2>It has a temperature of: ${weather.Temperature.Metric.Value}°C</h2>
+    <h2>${cityDetails.EnglishName}, ${cityDetails.Country.EnglishName}</h2>
+    <h2>${weather.Temperature.Metric.Value}°C</h2>
     <h2>${weather.WeatherText}</h2>
-    <p>See more detailed info: <a href="${weather.Link}">Here</a></p>
+    <p>See more detailed info: <a href="${weather.Link}" target="_blank">Here</a></p>
     `
   
   card.style.display = 'flex'

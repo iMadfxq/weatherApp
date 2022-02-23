@@ -16,6 +16,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+h1 {
+  font-size: 2.8rem;
+}
 main {
   width: 300px;
   display: flex;
@@ -47,4 +50,15 @@ button {
   height: 40px;
   border: none;
   border-radius: 10px;
+}
+.card {
+  margin: 20px 0px;
+}
+.card h2 {
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+}
+.card p {
+  margin-bottom: 5px;
+  font-size: 1.8rem;
 }

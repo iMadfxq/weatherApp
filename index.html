@@ -4,27 +4,31 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
   <title>Weather App</title>
 </head>
 <body>
-  <section class="search">
-    <form>
-      <input type="text" placeholder="City you want to check" id="input">
-      <button type="submit">Get Weather</button>
-    </form>
-  </section>
-  <section class="card" style="display: none;">
-    <div class="card--image">
-      <img src="" alt="">
-    </div>
-    <div class="card--details">
-      <h1>City</h1>
-      <h2>Country</h2>
-      <h2>temperature</h2>
-      <h2>weather text</h2>
-      <p>See more detailed info: <a href="">Here</a></p>
-    </div>
-  </section>
+  <main>
+    <h1>Simple Weather App by iMadfxq</h1>
+    <section class="search">
+      <form autocomplete="off">
+        <input type="text" placeholder="City you want to check" id="input">
+        <button type="submit">🔍</button>
+      </form>
+    </section>
+    <section class="card">
+      <div class="card--image">
+        <img src="" alt="">
+      </div>
+      <div class="card--details">
+        <h1>City</h1>
+        <h2>Country</h2>
+        <h2>temperature</h2>
+        <h2>weather text</h2>
+        <p>See more detailed info: <a href="">Here</a></p>
+      </div>
+    </section>
+  </main>
   <script src="./data.js"></script>
   <script src="./app.js"></script>
 </body>

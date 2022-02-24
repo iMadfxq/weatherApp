@@ -13,11 +13,9 @@ html {
 
 body {
   background-color: var(--primaryColor);
-  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 h1 {
@@ -25,9 +23,11 @@ h1 {
 }
 main {
   width: 300px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
   background-color: var(--primaryColor);
   padding: 10px;
@@ -86,4 +86,34 @@ button {
 .card--image img {
   width: 140px;
   height: 140px;
+}
+
+.footer__info {
+  width: 100vw;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+.footer__info a {
+  color: white;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.footer__info a:hover {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+.footer__info span {
+  color: red;
+  margin-inline-start: 5px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-decoration: underline;
 }

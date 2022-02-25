@@ -71,6 +71,10 @@ button {
   width: inherit;
   border-radius: 10px;
 }
+.loader {
+  width: 280px;
+  height: 300px;
+}
 .card h2 {
   margin-bottom: 5px;
   font-size: 1.8rem;
@@ -86,6 +90,10 @@ button {
 .card--image img {
   width: 140px;
   height: 140px;
+}
+.card--image p {
+  opacity: 0.6;
+  font-size: 1.5rem;
 }
 
 .footer__info {
